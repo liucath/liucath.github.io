@@ -1,0 +1,104 @@
+/* reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* type */
+
+body {
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    line-height: 1.4;
+    background-color: #fefefe;
+}
+
+/* structure */
+
+.content {
+  max-width: 1000px;
+  padding: 100px 30px;
+  margin: auto;
+  font-weight: 300;
+}
+
+.content p {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.gradient {
+  background:  -webkit-linear-gradient(#22c1c3, #eba8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.gradient:hover {
+  background: -webkit-radial-gradient(#eeaeca, #94bbe9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.time_one {
+  font-size: 20px;
+  color: #000;
+  transition:  all 0.2s ease;
+}
+
+.time_one:hover {
+  content: url(../images/wakeup.gif);
+}
+
+.time_two {
+  font-size: 20px;
+  color: #000;
+  transition:  all 0.2s ease;
+}
+
+.time_two:hover {
+  content: url(../images/class.gif);
+}
+
+.time_three {
+  font-size: 20px;
+  color: #000;
+  transition:  all 0.2s ease;
+}
+
+.time_three:hover {
+  content: url(../images/cooking.gif);
+}
+
+.time_four {
+  font-size: 20px;
+  color: #000;
+  transition:  all 0.2s ease;
+}
+
+.time_four:hover {
+  content: url(../images/eating.gif);
+}
+
+.time_five {
+  font-size: 20px;
+  color: #000;
+  transition:  all 0.2s ease;
+}
+
+.time_five:hover {
+  content: url(../images/homework.gif);
+}
+
+.time_six {
+  font-size: 20px;
+  color: #000;
+  transition:  all 0.2s ease;
+}
+
+.time_six:hover {
+  content: url(../images/sleep.gif);
+}

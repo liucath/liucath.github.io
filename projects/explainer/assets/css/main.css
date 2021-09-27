@@ -1,0 +1,130 @@
+body {
+        background-color:  white;
+        color:  black;
+        font-family: montserrat;
+}
+
+a {
+        color:  black;
+        font-family: 'Montserrat', sans-serif;
+        padding: 15px;
+        text-decoration: none;
+}
+
+p{
+        font-size: 20px;
+        text-align: center;
+}
+
+a:hover {
+        color: black;
+        background-image:  radial-gradient(closest-side at 50% 50%, #CFAEF1, white);
+}
+
+h1 {
+        font-family: 'MuseoModerno', cursive;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 300px;
+}
+
+hr {
+        margin-left: 100px;
+        margin-right: 100px;
+}
+
+.nav {
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+}
+
+.title {
+        margin: auto;
+        text-align: center;
+        vertical-align: center;
+        width:  80%;
+        padding:  10px;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  a{
+        padding: 30px;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 70px;
+  }
+  a{
+        padding: 50px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 100px;
+  }
+  a{
+        padding: 60px;
+  }
+  hr {
+        margin-left: 200px;
+        margin-right: 200px;
+}
+}
+
+.solitude {
+        color: white;
+        padding: 10px;
+}
+
+.solitude:hover{
+        background: black;
+}
+
+.smalltitle {
+        position: fixed;
+        text-align: center;
+        bottom: 0px;
+        width: 100%;
+}
+
+.paragraphtext {
+        max-width: 400px;
+        padding: 200px 30px;
+        margin: auto;
+}
+
+.room {
+        color: #8367AE;
+}
+
+.room:hover:after {
+        display: block;
+        content: url("../images/room.jpeg");
+        height: auto;
+        position: fixed;
+        left: 10%;
+        top: 10%;
+}
+
+.park {
+        color: #8367AE;
+}
+
+.park:hover:after {
+        display: block;
+        content: url("../images/park.jpg");
+        height: auto;
+        position: fixed;
+        right: 10%;
+        top: 30%;
+}
