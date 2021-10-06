@@ -8,48 +8,62 @@ p{
 	text-align: center;
 }
 
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	width: 80%;
-	margin: 0 auto;
+.parallax {
+	background-image: url("./images/quartz.jpg");
+	min-height: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.scrollheader {
+	height: 250px;
 }
 
 .header {
-	padding: 20px;
-	margin-left: 30px;
-	letter-spacing: 15px;
+	padding-top: 600px;
+	padding-bottom: 600px;
+	text-align: center;
+	letter-spacing: 70px;
 	font-family: 'Bellota Text', cursive;
 	color: #6873A4;
 	font-size: 100px;
+	background-image: linear-gradient(to bottom, rgba(229,234,250,1), rgba(0,0,0,0));
 }
 
-.introimage{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-}
-
-.contents {
-	margin: 0px auto auto 0px;
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 0 auto;
 }
 
 .contentsheader {
 	letter-spacing: 5px;
 	color: #7181B9;
 	font-family: 'Bellota Text', cursive;
-	font-size: 30px;
-	padding-bottom: 10px;
+	font-size: 50px;
+	padding-bottom: 30px;
 	padding-top: 10px;
+}
+
+.intro {
+	padding-left: 35%;
+	font-size: 25px;
+	padding-top: 200px;
+	padding-bottom: 500px;
+}
+
+.etymologytext {
+	padding-bottom: 500px;
 }
 
 .crystalhabit {
 	display: flex;
 	min-height: 200px;
+	padding-bottom: 500px;
 }
-
-* {box-sizing: border-box;}
 
 .column-text{
 	max-width: 80%;
@@ -61,17 +75,19 @@ p{
 }
 
 .column-images2{
-	padding-top: 20px;
+	padding-top: 500px;
 	padding-right: 40px;
 	padding-left: 20px;
 }
 
 .structurea{
-	width: 6vw;
+	padding-left: 20px;
+	width: 8vw;
 }
 
 .structureb{
-	width: 7vw;
+	padding-left: 20px;
+	width: 9vw;
 }
 
 .caption {
@@ -98,13 +114,26 @@ p{
 	width: 15vw;
 }
 
+.synthetic {
+	padding-top: 500px;
+	padding-bottom: 500px;
+}
 .occurence {
 	display: flex;
 	min-height: 200px;
+	padding-bottom: 500px;
+}
+
+.mining {
+	padding-bottom: 500px;
+}
+
+.silica {
+	padding-bottom: 500px;
 }
 
 .occurenceimage {
-	width: 13vw;
+	width: 16vw;
 }
 
 a {
@@ -130,6 +159,9 @@ a:hover {
 	.caption {
 		font-size: 13px;
 	}
+	.byline {
+		font-size: 15px;
+	}
 }
 
 /* Desktop breakpoint */
@@ -140,6 +172,9 @@ a:hover {
 	.caption {
 		font-size: 14px;
 	}
+	.byline {
+		font-size: 16px;
+	}
 }
 
 /* Wide screen breakpoint */
@@ -149,5 +184,8 @@ a:hover {
 	}
 	.caption {
 		font-size: 15px;
+	}
+	.byline {
+		font-size: 17px;
 	}
 }
