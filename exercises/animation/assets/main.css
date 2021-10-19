@@ -1,0 +1,93 @@
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes linemove {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes checkers {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-300px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#rectangle {
+  animation: breathe 6s ease-out infinite;
+}
+
+#rectangle:hover {
+  animation-play-state: paused;
+}
+
+#blob {
+  animation: rotate 5s ease infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#line {
+  animation: linemove 4s infinite;
+}
+
+#checker {
+  animation: checkers 5s infinite;
+}
+
+#circle {
+  animation: appear 5s infinite;
+}
