@@ -1,0 +1,67 @@
+body {
+	background-color: #FFE2E2;
+}
+
+h1 {
+	font-family: 'Rammetto One', cursive;
+	font-size: 45px;
+	letter-spacing: 20px;
+	color: #FF3969;
+}
+
+p {
+	font-family: 'Red Rose', cursive;
+	font-size: 18px
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 15px;
+}
+
+.headingone {
+	position: fixed;
+	left: 30px;
+	top: 40px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.headingtwo {
+	position: fixed;
+	right: 50px;
+	bottom: 30px;
+}
+
+.container {
+	display: flex;
+	flex-direction:  column;
+	justify-content: center;
+	align-items:  center;
+	margin: auto;
+	height: 100vh;
+	width: 70%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	padding-top: 20vh;
+}
+
+.columnright {
+	padding-top: 150px;
+	flex: 60%;
+}
+
+.columnleft {
+	flex: 40%;
+	padding-left: 30px;
+}
+
+.quote1 {
+	width: 250px;
