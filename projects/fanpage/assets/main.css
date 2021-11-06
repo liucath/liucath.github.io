@@ -4,8 +4,8 @@ body {
 
 h1 {
 	font-family: 'Rammetto One', cursive;
-	font-size: 45px;
-	letter-spacing: 20px;
+	font-size: 60px;
+	letter-spacing: 10px;
 	color: #FF3969;
 }
 
@@ -20,23 +20,35 @@ img {
 	border-radius: 15px;
 }
 
+audio {
+	width:  200px;
+}
+
+section {
+	margin-bottom: 0;
+	display: flex;
+}
+
 .headingone {
 	position: fixed;
 	left: 30px;
-	top: 40px;
+	top: 30px;
 	writing-mode: vertical-rl;
 	text-orientation: upright;
 }
 
 .headingtwo {
 	position: fixed;
-	right: 50px;
-	bottom: 30px;
+	right: 30px;
+	bottom: 10px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
 }
 
 .container {
+	background-color: yellow;
 	display: flex;
-	flex-direction:  column;
+	flex-direction: column;
 	justify-content: center;
 	align-items:  center;
 	margin: auto;
@@ -54,14 +66,53 @@ img {
 }
 
 .columnright {
+	background-color: blue;
 	padding-top: 10%;
 	flex: 60%;
 }
 
 .columnleft {
+	background-color: green;
 	flex: 40%;
 	padding-left: 30px;
 }
 
 .quote1 {
-	width: 250px;
+	width: 300px;
+}
+
+/* media query for mobile*/
+@media only screen and (max-width:  800px) {
+	h1 {
+	font-size: 35px;
+	letter-spacing: 5px;
+	}
+
+	p {
+		font-size: 16px
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+		border-radius: 15px;
+	}
+
+	audio {
+		width:  200px;
+	}
+
+	.headingone {
+		left: 10px;
+		top: 20px;
+	}
+
+	.headingtwo {
+		right: 10px;
+		bottom: 20px;
+	}
+
+	.columnright, .columnleft {
+		width: 100%;
+	}
+}
