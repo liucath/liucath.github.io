@@ -6,6 +6,7 @@ p {
 	font-family: 'Varela Round', sans-serif;
 	font-size: 18px;
 	letter-spacing: 1px;
+	text-align: center;
 }
 
 img {
@@ -13,7 +14,7 @@ img {
 	height: auto;
 	display: block;
 	margin: auto;
-	padding: 20px;
+	padding: 15px;
 }
 
 img:hover {
@@ -25,21 +26,85 @@ img:hover {
   justify-content: center;
   flex-direction:  column;
   align-items: center;
-  height: 30vh;
+  height: 20vh;
+}
+
+.sunny: hover {
+	cursor: pointer;
+}
+
+.cloudy: hover {
+	cursor: pointer;
+}
+
+.rainy: hover {
+	cursor: pointer;
+}
+
+.snowy: hover {
+	cursor: pointer;
 }
 
 .sunnyBg {
-	background-color: yellow;
+	margin-top: 100px;
+	background: #FFF8DB;
 }
 
 .cloudyBg {
-	background-color: gray;
+	margin-top: 100px;
+	background-color: #E6EFF7;
 }
 
 .rainyBg {
-	background-color: blue;
+	margin-top: 100px;
+	background-color: #BDCBDA;
 }
 
 .snowyBg {
-	background-color: pink;
+	margin-top: 100px;
+	background-color: #F8FBFF;
+}
+
+.imgChosen {
+	background-color: white;
+}
+
+.disappear{
+	display: none;
+}
+
+.nextactive {
+	display: block;
+}
+
+.sunnyitem {
+	display: none;
+}
+
+.sunnyappear {
+	display: block;
+}
+
+.cloudyitem {
+	display: none;
+}
+
+.cloudyappear {
+	display: block;
+}
+
+.rainyitem {
+	display: none;
+}
+
+.rainyappear {
+	display: block;
+}
+
+.snowyitem {
+	display: none;
+}
+
+.snowyappear {
+	display: block;
 }
