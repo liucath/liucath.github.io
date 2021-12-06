@@ -1,0 +1,264 @@
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+@font-face {font-family: "Druk Wide Bold";
+  src: url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.eot"); /* IE9*/
+  src: url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.woff2") format("woff2"), /* chrome、firefox */
+  url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.woff") format("woff"), /* chrome、firefox */
+  url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold") format("svg"); /* iOS 4.1- */
+}
+
+h1{
+    font-family:"Druk Wide Bold" !important;
+    font-size:30px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+P{
+	font-family: 'Space Mono', monospace;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #FF4789;
+}
+
+.week {
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.day {
+	font-family: 'Space Mono', monospace;
+	font-size: 20px;
+	color: black;
+	padding-left: 5.25%;
+	padding-right: 5.25%;
+}
+
+.container {
+	display: flex;
+	margin: auto;
+	width: 90%;
+	height: 700px;
+	border: 4px solid black;
+}
+
+.row {
+	margin: auto;
+	display: flex;
+	width: 90%;
+	height:calc(700px / 4);
+}
+
+.topline {
+	margin: auto;
+	width: 90%;
+	height: 5px;
+	border: 4px solid black;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+
+.boxleft {
+	width: calc(90% / 6);
+	height: calc(700px / 4);
+	border: 4px solid black;
+	border-top-style: none;
+}
+
+.box {
+	width: calc(90% / 6);
+	height: calc(700px / 4);
+	border: 4px solid black;
+	border-left-style: none;
+	border-top-style: none;
+}
+
+.boxright {
+	width: calc(90% / 6);
+	height: calc(700px / 4);
+	border: 4px solid black;
+	border-left-style: none;
+	border-top-style: none;
+}
+
+.daynum {
+	padding-left: 20px;
+}
+
+.one:hover {
+	background-color: #C4D4FB;
+	border: 4px solid black;
+	border-left-style: none;
+}
+.two:hover {
+	background-color: #A2E5FC;
+	border: 4px solid black;
+	border-left-style: none;
+}
+.three:hover {
+	background-color: #BAFCD3;
+	border: 4px solid black;
+	border-left-style: none;
+}
+.four:hover {
+	background-color: #D9FFC8;
+	border: 4px solid black;
+	border-left-style: none;
+}
+.five:hover {
+	background-color: #D9FFC8;
+	border: 4px solid black;
+	border-left-style: none;
+}
+.six:hover {
+	background-color: #BAFCD3;
+	border: 4px solid black;
+}
+.seven:hover {
+	background-color: #A1F9EB;
+	border: 4px solid black;
+	border-left-style: none;
+}
+.eight:hover {
+	background-color: #DBC9FB;
+	border: 4px solid black;
+	border-left-style: none;
+}
+.nine:hover {
+	background-color: #DBC9FB;
+	border: 4px solid black;
+	border-left-style: none;
+}
+.ten:hover {
+	background-color: #C4D4FB;
+	border: 4px solid black;
+	border-left-style: none;
+}
+
+.colors {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 20px;
+}
+
+.heading {
+	font-size: 20px;
+	color: #FF4789;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: 0 0;
+	transform: rotate(-90deg);
+	padding: 40px;
+	margin-top: 550px;
+}
+
+.clock {
+	padding-left: 10%;
+}
+
+.time {
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 70%;
+	color: #FF4789;
+}
+
+#one {
+	fill: #D9FFC8;
+}
+#one:hover{
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#two {
+	fill: #C4D4FB;
+}
+#two:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#three {
+	fill: #A1F9EB;
+}
+#three:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#four {
+	fill: #DBC9FB;
+}
+#four:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#five {
+	fill: #DBC9FB;
+}
+#five:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#six {
+	fill: #D9FFC8;
+}
+#six:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#seven {
+	fill: #DBC9FB;
+}
+#seven:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#eight {
+	fill: #A1F9EB;
+}
+#eight:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#nine {
+	fill: #DBC9FB;
+}
+#nine:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#ten {
+	fill: #A1F9EB;
+}
+#ten:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#eleven {
+	fill: #DBC9FB;
+}
+#eleven:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
