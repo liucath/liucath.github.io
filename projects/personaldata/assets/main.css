@@ -168,6 +168,23 @@ a {
 	padding-left: 10%;
 }
 
+.imagebank {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+img {
+	width: 15%;
+	border: 1px solid black;
+}
+
+.show {
+	border-color: red;
+}
+
 .time {
 	position: absolute;
 	margin-top: 10%;

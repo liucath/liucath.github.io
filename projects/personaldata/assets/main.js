@@ -1,9 +1,11 @@
-let body = document.body;
-let time = document.querySelector(".time");
-let one = document.querySelector("#one");
+console.log("hello");
 
-function showTime() {
-	body.classList.toggle("time");
+let time = document.querySelector(".time");
+let onesection = document.querySelector("#one");
+let oneImg = document.querySelector(".imagebank");
+
+function showImgOne() {
+	oneImg.classList.toggle("show");
 }
 
-one.addEventListener("click", showActions();
+onesection.addEventListener("click", showImgOne());
