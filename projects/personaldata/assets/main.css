@@ -176,6 +176,59 @@ svg {
 		padding-left: 3.5%;
 		padding-right: 3.5%;
 	}
+	.daynum {
+		color: black;
+	}
+	.one {
+		background-color: #C4D4FB;
+		border: 4px solid black;
+		border-left-style: none;
+		}
+	.two {
+		background-color: #A2E5FC;
+		border: 4px solid black;
+		border-left-style: none;
+	}
+	.three {
+		background-color: #BAFCD3;
+		border: 4px solid black;
+		border-left-style: none;
+	}
+	.four {
+		background-color: #D9FFC8;
+		border: 4px solid black;
+		border-left-style: none;
+	}
+	.five {
+		background-color: #D9FFC8;
+		border: 4px solid black;
+		border-left-style: none;
+	}
+	.six {
+		background-color: #BAFCD3;
+		border: 4px solid black;
+	}
+	.seven {
+		background-color: #A1F9EB;
+		border: 4px solid black;
+		border-left-style: none;
+	}
+	.eight {
+		background-color: #DBC9FB;
+		border: 4px solid black;
+		border-left-style: none;
+	}
+	.nine {
+		background-color: #DBC9FB;
+		border: 4px solid black;
+		border-left-style: none;
+	}
+	.extra {
+		background-color: white;
+		border: 4px solid black;
+		border-left-style: none;
+	}
+
 
 	.container {
 		height: 500px;

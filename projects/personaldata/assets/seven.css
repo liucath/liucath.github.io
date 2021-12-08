@@ -196,89 +196,56 @@ img {
   width: 80%;
 }
 
-#one {
-  fill: #D8FDBE;
-}
 #one:hover{
   fill: #FF4789;
   cursor: pointer;
 }
 
-#two {
-  fill: #C4D4FB;
-}
 #two:hover {
   fill: #FF4789;
   cursor: pointer;
 }
 
-#three {
-  fill: #A1F9EB;
-}
 #three:hover {
   fill: #FF4789;
   cursor: pointer;
 }
 
-#four {
-  fill: #DBC9FB;
-}
 #four:hover {
   fill: #FF4789;
   cursor: pointer;
 }
 
-#five {
-  fill: #DBC9FB;
-}
 #five:hover {
   fill: #FF4789;
   cursor: pointer;
 }
 
-#six {
-  fill: #DBC9FB;
-}
 #six:hover {
   fill: #FF4789;
   cursor: pointer;
 }
 
-#seven {
-  fill: #DBC9FB;
-}
 #seven:hover {
   fill: #FF4789;
   cursor: pointer;
 }
 
-#eight {
-  fill: #D8FDBE;
-}
 #eight:hover {
   fill: #FF4789;
   cursor: pointer;
 }
 
-#nine {
-  fill: #DBC9FB;
-}
 #nine:hover {
   fill: #FF4789;
   cursor: pointer;
 }
 
-#ten {
-  fill: #A1F9EB;
-}
 #ten:hover {
   fill: #FF4789;
   cursor: pointer;
 }
 
-#eleven {
-  fill: #DBC9FB;
-}
 #eleven:hover {
   fill: #FF4789;
   cursor: pointer;
