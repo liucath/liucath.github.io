@@ -1,0 +1,392 @@
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+@font-face {font-family: "Druk Wide Bold";
+  src: url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.eot"); /* IE9*/
+  src: url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.woff2") format("woff2"), /* chrome、firefox */
+  url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.woff") format("woff"), /* chrome、firefox */
+  url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../font/@font-face/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold") format("svg"); /* iOS 4.1- */
+}
+
+h1{
+    font-family:"Druk Wide Bold" !important;
+    font-size:30px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+P{
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #FF4789;
+}
+
+svg {
+  width:  60vw;
+  height:  899px; 
+}
+
+.heading {
+  font-size: 20px;
+  color: #FF4789;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  padding: 40px;
+  margin-top: 550px;
+}
+
+.clock {
+  /*padding-left: 10%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.imagebankcontainer {
+  position: absolute;
+  width: 60%;
+  align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imagebank {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.oneimg{
+  display: none;
+}
+.twoimg {
+  display: none;
+}
+.threeimg {
+  display: none;
+}
+.fourimg{
+  display: none;
+}
+.fiveimg {
+  display: none;
+}
+.siximg {
+  display: none;
+}
+.sevenimg{
+  display: none;
+}
+.eightimg {
+  display: none;
+}
+.nineimg {
+  display: none;
+}
+.tenimg{
+  display: none;
+}
+.elevenimg {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+img {
+  width: 29%;
+}
+
+.time {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timetwo {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timethree {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timefour {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timefive {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timesix {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timeseven {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timeeight {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timenine {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timeten {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+.timeeleven {
+  display: none;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 65%;
+  color: #FF4789;
+}
+
+.sched {
+  color: black;
+}
+
+.quote {
+  margin-top: 10%;
+  color: black;
+  font-size: 45px;
+  width: 80%;
+}
+
+#one {
+  fill: #D9FFC8;
+}
+#one:hover{
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#two {
+  fill: #C4D4FB;
+}
+#two:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#three {
+  fill: #A1F9EB;
+}
+#three:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#four {
+  fill: #DBC9FB;
+}
+#four:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#five {
+  fill: #DBC9FB;
+}
+#five:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#six {
+  fill: #D9FFC8;
+}
+#six:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#seven {
+  fill: #DBC9FB;
+}
+#seven:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#eight {
+  fill: #A1F9EB;
+}
+#eight:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#nine {
+  fill: #DBC9FB;
+}
+#nine:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#ten {
+  fill: #A1F9EB;
+}
+#ten:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+#eleven {
+  fill: #DBC9FB;
+}
+#eleven:hover {
+  fill: #FF4789;
+  cursor: pointer;
+}
+
+/* media query for mobile*/
+@media only screen and (max-width:  800px) {
+
+  h1{
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 1;
+  }
+  svg {
+    width:  90vw;
+  }
+
+  .quote {
+    margin-top: 30px;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+  }
+  .heading {
+    font-size: 20px;
+    color: #FF4789;
+    transform: rotate(0deg);
+    position: absolute;
+    padding: 30px;
+    margin-top: 10px;
+    j
+  }
+  .clock {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 700px;
+  }
+
+  img {
+    width: 50%;
+  }
+  .time {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timetwo {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timethree {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timefour {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timefive {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timesix {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timeseven {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timeeight {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timenine {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timeten {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+  .timeeleven {
+    text-align: right;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: 3%;
+  }
+}

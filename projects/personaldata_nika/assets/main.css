@@ -157,47 +157,142 @@ svg {
 	padding: 20px;
 }
 
-/* media query for mobile*/
-@media only screen and (max-width:  800px) {
+.heading {
+	font-size: 20px;
+	color: #FF4789;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: 0 0;
+	transform: rotate(-90deg);
+	padding: 40px;
+	margin-top: 550px;
+}
 
-	h1{
-		font-size: 14px;
-	}
-	p {
-		font-size: 12px;
-		line-height: 1;
-	}
-	svg {
-		width:  90vw;
-	}
+.clock {
+	/*padding-left: 10%;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: blue;
+	height: 100%;
+}
 
-	.day {
-		font-size: 12px;
-		padding-left: 3.5%;
-		padding-right: 3.5%;
-	}
+.shape {
+	background-color: green;
+}
 
-	.container {
-		height: 500px;
-	}
+.imagebank {
+    position: absolute;
+    width:  60vw;
+    align-items: center;
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    /* height: 100%; */
+    /*background-color: red;*/
+}
 
-	.row {
-		height:calc(500px / 4);
-	}
+img {
+	width: 15%;
+	border: 1px solid black;
+}
 
-	.boxleft {
-		height: calc(500px / 4);
-	}
+.show {
+	border: 10px solid red;
+}
 
-	.box {
-		height: calc(500px / 4);
-	}
+.time {
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 70%;
+	color: #FF4789;
+}
 
-	.boxright {
-		height: calc(500px / 4);
-	}
+#one {
+	fill: #D9FFC8;
+}
+#one:hover{
+	fill: #FF4789;
+	cursor: pointer;
+}
 
-	.colors {
-		width: 90%;
-	}
+#two {
+	fill: #C4D4FB;
+}
+#two:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#three {
+	fill: #A1F9EB;
+}
+#three:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#four {
+	fill: #DBC9FB;
+}
+#four:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#five {
+	fill: #DBC9FB;
+}
+#five:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#six {
+	fill: #D9FFC8;
+}
+#six:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#seven {
+	fill: #DBC9FB;
+}
+#seven:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#eight {
+	fill: #A1F9EB;
+}
+#eight:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#nine {
+	fill: #DBC9FB;
+}
+#nine:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#ten {
+	fill: #A1F9EB;
+}
+#ten:hover {
+	fill: #FF4789;
+	cursor: pointer;
+}
+
+#eleven {
+	fill: #DBC9FB;
+}
+#eleven:hover {
+	fill: #FF4789;
+	cursor: pointer;
 }
