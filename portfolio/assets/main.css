@@ -1,0 +1,90 @@
+.title {
+	height: 100%;
+	padding-top: 20%;
+	display: block;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	cursor: url('../images/gradient.png'), auto;
+}
+
+h1 {
+	font-family: 'Audiowide', cursive;
+	font-size: 96px;
+	text-align: center;
+	font-color: black;
+}
+
+h1:hover {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	cursor: url('../images/gradient.png'), auto;
+}
+
+.mouse-cursor-gradient-tracking {
+  position: relative;
+  background: #FFFFFF;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+}
+
+.mouse-cursor-gradient-tracking span {
+  position: relative;
+}
+
+.mouse-cursor-gradient-tracking:before {
+  --size: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, blue, green, transparent);
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+.mouse-cursor-gradient-tracking:hover:before {
+  --size: 1000px;
+}
+
+@media only screen and (max-width:  800px)  {
+/* smartphones, iPhone, portrait 480x320 phones */
+	h1 {
+		font-size: 40px;
+	}
+	body {
+		animation-name: bgchange;
+    	animation-duration: 7s;
+    	animation-iteration-count: infinite;
+	}
+	@keyframes bgchange {
+		0% {
+			background: #FFFDCC;
+		}
+		25% {
+			background: #D9FFCC;
+		}
+		50% {
+			background: #E0F9FF;
+		}
+		75% {
+			background: #EEE9FF;
+		}
+		100% {
+			background: #FFFDCC;
+		}
+	}
+}
