@@ -1,0 +1,75 @@
+
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  margin: auto;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  flex-wrap:  wrap;
+  width: 90%;
+  padding:10px;
+  min-height: 200px;
+}
+
+.imgcontainer {
+  margin-left: 10%;
+  display: flex;
+  flex-wrap:  wrap;
+  width: 100%;
+}
+
+.img {
+  margin: 10px 10px;
+  width: 200px;
+}
+
+.img img:last-child {
+  display: none;
+}
+.img:hover img:last-child {
+  display: block;
+}
+.img:hover img:first-child {
+  display: none;
+}
+
+.button {
+  margin: auto;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 40px;
+  text-align: center;
+  padding: 100px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.button:hover {
+  font-style: italic;
+}
